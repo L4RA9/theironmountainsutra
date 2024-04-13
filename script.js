@@ -1,6 +1,5 @@
 const poems = [
-    "Roses are red, violets are blue, sugar is sweet, and so are you.",
-    "I wandered lonely as a cloud...",
+    jhkjl
     // Add more poems here
 ];
 
