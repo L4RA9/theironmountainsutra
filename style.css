@@ -1,11 +1,11 @@
 body{
-    margin: 0;}
-
-    .background-image{
-        background-color: rgb(1, 11, 15);
-        background-image: url('45676987_10218024910240479_2239055726595014656_n.jpg'); 
-        height:100vh; 
-        background-size:contain;
-        background-repeat: no-repeat;
+        background-image:
+        url('floatinggear waterdrop.jpg'),
+        url('floatingearTH_stealth_samurai_buddha_sword_in_a_leap_guided_neo_33c1e74e-c28a-4820-ba0d-99adfb36302e.jpeg'); 
+        background-position: left,
+        right;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 50vw 100vh, 50vw 100vh;/*Seperate size declarations*/
+        height: 100vh;/*Set the height to the viewport height*/
 
 }
