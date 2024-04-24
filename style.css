@@ -5,7 +5,17 @@ body{
         background-position: left,
         right;
         background-repeat: no-repeat, no-repeat;
-        background-size: 50vw 100vh, 50vw 100vh;/*Seperate size declarations*/
+        background-size: 50vw 100vh, 50vw 100vh;/*Seperate size declarations and combine values*/
         height: 100vh;/*Set the height to the viewport height*/
-
+}
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%
+    text-align:center;
+    padding: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+footer{
+    color: rgba(255, 255, 255, 0.8);/*White with 80% opacity*/
 }
