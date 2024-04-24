@@ -3,9 +3,9 @@ body{
 
     .background-image{
         background-color: rgb(1, 11, 15);
-        background-image: url('floatingearTH_stealth_samurai_buddha_sword_in_a_leap_guided_neo_33c1e74e-c28a-4820-ba0d-99adfb36302e.jpg'); 
+        background-image: url('45676987_10218024910240479_2239055726595014656_n.jpg'); 
         height:100vh; 
-        background-size:cover;
+        background-size:contain;
         background-repeat: no-repeat;
 
 }
