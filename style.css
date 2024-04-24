@@ -9,17 +9,20 @@ body{
         height: 100vh;/*Set the height to the viewport height*/
 }
 p{
-font-size: 0.8em;
+font-size: 0.7em;
 line-height: 1.2;
 font-family: Arial,sans-serif;
 text-align: center;
 color:rgba(255, 255, 255, 0.5);/*White with 80% opacity*/
 }
 footer{
+    font-size: 0.7em;
+line-height: 1.2;
+font-family: Arial,sans-serif;
     position:fixed;
     bottom:0;
     width:100%
-    text-align:center;
+    text-align:right;
     padding: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
