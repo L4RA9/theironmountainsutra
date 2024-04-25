@@ -2,6 +2,7 @@ body{
         background-image:
         url('floatinggear waterdrop.jpg'),
         url('floatingearTH_stealth_samurai_buddha_sword_in_a_leap_guided_neo_33c1e74e-c28a-4820-ba0d-99adfb36302e.jpeg'); 
+        background-color:rgb(53, 57, 53);
         background-position: left,
         right;
         background-repeat: no-repeat, no-repeat;
@@ -10,7 +11,7 @@ body{
 }
 p{
 font-size: 0.7em;
-line-height: 1.2;
+line-height: 1.2;b
 font-family: Arial,sans-serif;
 text-align: center;
 color:rgba(255, 255, 255, 0.5);/*White with 80% opacity*/
