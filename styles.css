@@ -68,12 +68,7 @@ body{
     margin:0;
     padding:0;
 }
-.background-container{
-    position:relative;
-    width:100vw;
-    height:100vh;
-    background:linear-gradient(to bottom,#1A1D23,#343A40);
-}
+
 .parallelogram{
     position:absolute;
     top:50%;
