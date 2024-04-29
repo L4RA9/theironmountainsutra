@@ -6,6 +6,8 @@ body{
 html{
     background-color: #1A1D23;
 }
+-webkit-overflow-scrolling:touch;
+
 .background-container{
     position:relative;
     width:100vw;
