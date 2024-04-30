@@ -14,14 +14,14 @@ html{
     background:linear-gradient(to bottom,#1A1D23,#343A40);
 }
 .parallelogram{
-    position:relative;
+    position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     width:200px;
     height:100px;
     background-color:#fff;
-    transform:skew(5deg);
+    transform:skew(20deg);
     box-shadow:0 0 10px rgba(0,0,0,0.2);/*Add depth*/
 }
 .moon-container{
