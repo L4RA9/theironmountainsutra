@@ -6,10 +6,6 @@ body{
 html{
     background-color: #1A1D23;
 }
-#iframe{
-    overflow:scroll;
--webkit-overflow-scrolling:touch;
-}
 
 .background-container{
     position:relative;
@@ -18,14 +14,14 @@ html{
     background:linear-gradient(to bottom,#1A1D23,#343A40);
 }
 .parallelogram{
-    position:absolute;
+    position:relative;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     width:200px;
     height:100px;
     background-color:#fff;
-    transform:skew(20deg);
+    transform:skew(5deg);
     box-shadow:0 0 10px rgba(0,0,0,0.2);/*Add depth*/
 }
 .moon-container{
@@ -58,25 +54,16 @@ p{
     line-height: 1.1;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
     text-align: left;
-    color:rgba(255, 255, 255, 0.5);/*White with 80% opacity*/
+    color:rgba(255, 255, 255, 0.5);
     }
     pre{
     font-size: 0.7em;
     line-height: 1.1;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
     text-align: left;
-    color:#8BC34A;/*White with 80% opacity*/
+    color:rgba(139,195,74,0.8);
     }
-    .styled{
-        color:rgba(109, 127, 19, 0.4);
-    }
-    aside{
-        font-size: 0.7em;
-        line-height: 1.1;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
-        text-align: left;
-        color:rgba(255, 255, 255, 0.5);/*White with 80% opacity*/
-        }
+
     footer{
         font-size: 0.7em;
     line-height: 1.2;
@@ -89,4 +76,5 @@ p{
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     footer{
-        color: rgba(109, 127, 19, 0.4);/*White with 80% opacity*/
+        color: rgba(109, 127, 19, 0.4);
+    }
