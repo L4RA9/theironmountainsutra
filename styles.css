@@ -14,7 +14,8 @@ html{
     background:linear-gradient(to bottom,#1A1D23,#343A40);
 }
 .parallelogram{
-    position:absolute;
+    position:static;
+    z-index:0;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
@@ -23,14 +24,14 @@ html{
     background-color:#fff;
     transform:skew(20deg);
     box-shadow:0 0 10px rgba(0,0,0,0.2);/*Add depth*/
-    z-index:0;
+   
 }
 .moon-container{
     position:absolute;
     top:50%;
     right:20px;
     transform:translateY(-50%);
-    z-index:0;
+
 }
 .moon{
     position:relative;
@@ -60,6 +61,8 @@ p{
     color:rgba(255, 255, 255, 0.5);
     }
     pre{
+        position:relative;
+        z-index:1;
     font-size: 14px;
     line-height: 1.1;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
