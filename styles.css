@@ -23,18 +23,21 @@ html{
     background-color:#fff;
     transform:skew(20deg);
     box-shadow:0 0 10px rgba(0,0,0,0.2);/*Add depth*/
+    z-index:0;
 }
 .moon-container{
     position:absolute;
     top:50%;
     right:20px;
     transform:translateY(-50%);
+    z-index:0;
 }
 .moon{
     position:relative;
     border-radius:50%;
     background-color:#cccccc;/*Moon color*/
     box-shadow:0 0 10px rgba(0,0,0,0.2);
+    z-index:0;
 }
 .medium{
     width:200px;
