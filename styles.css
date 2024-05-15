@@ -14,14 +14,14 @@ html{
     background:linear-gradient(to bottom,#1A1D23,#343A40);
 }
 .parallelogram{
-    position:static;
+    position:absolute;
     z-index:0;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     width:200px;
     height:100px;
-    background-color:#fff;
+    background-color:#cccccc;
     transform:skew(20deg);
     box-shadow:0 0 10px rgba(0,0,0,0.2);/*Add depth*/
    
@@ -51,6 +51,31 @@ html{
     height:100px;
     opacity:0.6;/*Small moon opacity*/
     margin-left:20px;
+
+}
+.socket{
+    position:absolute;
+    right:0;
+    top:50%;
+    background-color:#cccccc;
+    border:1px solid #333;
+    border-radius:5px;
+    padding:10px;
+    width:50px;
+    height:70px;
+}
+.neutral{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background-color:#333;
+    border: radius 50%;
+    margin:5px;
+}
+.neutral:nth-child(3),
+.neutral:nth-child(4)
+
+{margin-top:20px;
 
 }
 p{
